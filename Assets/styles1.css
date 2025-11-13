@@ -191,7 +191,6 @@ body {
   width: 140px; /* fixed width */
   height: 45px; /* fixed height */
   font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
   perspective: 500px; /* 3D effect */
