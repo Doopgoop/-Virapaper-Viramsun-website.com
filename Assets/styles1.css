@@ -95,7 +95,7 @@ body {
 }
 /*=====  =====*/
 .hero-section {
-  background: url('images/paper-banner.jpg') center/cover no-repeat;
+  background: url('/Assets/paperplane.jpg') center/cover no-repeat;
   height: 80vh;
   display: flex;
   align-items: center;
@@ -127,11 +127,10 @@ body {
   font-size: 1em;
 }
 
-/* Intro Section */
+/* about Section */
 .intro {
   padding: 60px 20px;
   text-align: center;
-  background-color: #f5f5f5;
 }
 
 .intro h2 {
@@ -141,49 +140,12 @@ body {
 
 .intro p {
   max-width: 700px;
+  font-size: 1em;
   margin: 0 auto;
 }
-
-/* Products Section */
-.products {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.products h2 {
-  font-size: 2em;
-  margin-bottom: 40px;
-}
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.product-card {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
-}
-
-.product-card:hover {
-  transform: translateY(-5px);
-}
-
-.product-card img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
-.product-card h3 {
-  margin-top: 15px;
+/* Flip Button Styles */
+.btn-flip {
+  margin-top: 20px;
 }
 .btn-flip {
   position: relative;
@@ -236,6 +198,48 @@ body {
 .btn-flip:hover::after {
   transform: rotateX(0deg);
   opacity: 1;
+}
+
+/* Products Section */
+.products {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  margin-top: 15px;
 }
 
 /* ===== Footer Styles ===== */
