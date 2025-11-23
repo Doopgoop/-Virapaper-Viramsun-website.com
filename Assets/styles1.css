@@ -213,18 +213,22 @@ body {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 30px;
-  max-width: 1200px;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(280px, 1fr)
+  ); /* Bigger cards */
+  gap: 35px;
+  max-width: 1400px; /* allow more width */
   margin: 0 auto;
 }
 
 .product-card {
   background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+  padding: 10px; /* bigger card height */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+  min-height: 500px;
 }
 
 .product-card:hover {
@@ -233,13 +237,14 @@ body {
 
 .product-card img {
   width: 100%;
-  height: 150px;
+  height: 450px; /* bigger image */
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .product-card h3 {
   margin-top: 15px;
+  font-size: 1.2em; /* slightly bigger text */
 }
 
 /* ===== Footer Styles ===== */
