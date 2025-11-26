@@ -314,6 +314,98 @@ p {
   position: absolute;
   left: 0;
 }
+.partners {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f4f0e8;
+}
+
+.section-tag {
+  background: #fbeedc;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: inline-block;
+  color: #b68b57;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.section-subtitle {
+  font-size: 17px;
+  color: #777;
+  max-width: 650px;
+  margin: 0 auto 40px;
+}
+
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.brand-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.brand-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* BRAND LOGO AREA */
+.brand-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 12px;
+  background: #faf7f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.brand-logo img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.brand-card h3 {
+  margin: 10px 0 8px;
+}
+
+.brand-card p {
+  color: #666;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.tags {
+  margin-top: 15px;
+}
+
+.tags span {
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 6px;
+  background: #f3f3f3;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #666;
+}
 
 /* ===== Footer Styles ===== */
 .footer {
