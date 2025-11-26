@@ -218,7 +218,94 @@ body {
 
 /* Vision */
 
-/* Mission */
+/* Mission  Vision*/
+.mv-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: #faf7f2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mv-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.mv-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.mv-card {
+  width: 340px;
+  padding: 30px;
+  background: #fff;
+  border: 2px solid #e7dfd6;
+  border-radius: 12px;
+  text-align: left;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.mv-card:hover {
+  border-color: #f4a742;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transform: translateY(-5px);
+}
+
+.mv-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #f4a742;
+}
+
+.mv-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.mv-card p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Strategic Goals */
+.sg-title {
+  margin: 50px 0 30px;
+  font-size: 24px;
+}
+
+.sg-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.sg-item {
+  width: 200px;
+  padding: 20px;
+  background: #fff4e6;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.sg-item:hover {
+  background: #ffe8cc;
+  transform: translateY(-6px);
+}
+
+.sg-number {
+  font-size: 28px;
+  font-weight: bold;
+  color: #f4a742;
+  display: block;
+  margin-bottom: 10px;
+}
 
 /* ===== End of about us ===== */
 .footer {
